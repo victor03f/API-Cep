@@ -8,11 +8,11 @@ export default function buscarCEP() {
 
     const fetchEndereco = async () => {
         try {
-
             const response = await fetch(`https://viacep.com.br/ws/${cep}/json/
             `)
             const data = await response.json()
             setEndereco(data)
+            setErro('')
         } catch (error) {
             setErro(error)
         }
@@ -21,9 +21,9 @@ export default function buscarCEP() {
 
     return (
         <div className="content">
-            <h1>
-                Buscar Endereço pelo CEP
-            </h1>
+            <h4>
+            Busca por CEP: Insira o CEP desejado no campo de busca principal e clique no botão "Buscar". A ferramenta retornará o endereço completo correspondente, incluindo nome da rua, bairro, cidade e estado.
+            </h4>
             <input
                 type="text"
                 value={cep}

@@ -3,5 +3,11 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
 }
+.content h4{
+    display: flex;
+    width: 50%;
+
+}
+
+
