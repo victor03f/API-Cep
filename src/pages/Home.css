@@ -1,0 +1,21 @@
+ 
+.NavHome{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.NameSite{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 128, 0);
+    font-size: 36px;
+    font-family: Georgia;
+}
+.AboutHome{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+

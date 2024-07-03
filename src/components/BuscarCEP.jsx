@@ -1,6 +1,12 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react-hooks/rules-of-hooks */
+
 import { useState } from "react"
 import './BuscarCEP.css' 
 export default function buscarCEP() {
+    
+    
+
     const [cep, setCep] = useState('')
     const [endereco, setEndereco] = useState(null)
     const [erro,setErro] = useState(null)

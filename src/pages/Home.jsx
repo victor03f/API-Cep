@@ -1,13 +1,15 @@
 import { Link } from 'react-router-dom';
+import "./Home.css"
+
 
 export default function Home() {
     return (<div className='ContainerHome'>
         <header className='HeaderHome'>
             <nav className='NavHome'>
-                <ul>
-
                     <li><Link to="#About">Sobre</Link></li>
-                </ul>
+                    <li><Link to="#About">Sobre</Link></li>
+                    <li><Link to="#About">Sobre</Link></li>
+                    <li><Link to="#About">Sobre</Link></li>
             </nav>
             <h1 className='NameSite'>
                 CEP Fácil!
