@@ -3,6 +3,8 @@
 
 import { useState } from "react"
 import './BuscarCEP.css' 
+import { Link } from 'react-router-dom';
+
 export default function buscarCEP() {
     
     
@@ -50,6 +52,11 @@ export default function buscarCEP() {
                 <p>UF:{endereco.uf}</p>
                 </div>
             )}
+            <article>
+                <button>
+                    <Link to="/">Buscar CEP</Link>
+                </button>
+            </article>
         </div>
     )
 }

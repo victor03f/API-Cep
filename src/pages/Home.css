@@ -1,21 +1,68 @@
- 
-.NavHome{
+
+ .Home {
+    display: flex;
+    flex-direction: column;
+ }
+ .Home h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: green;
+ }
+.Home header nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.NameSite{
+
+.Home  .art1 {
     display: flex;
-    align-items: center;
     justify-content: center;
-    color: rgb(0, 128, 0);
-    font-size: 36px;
-    font-family: Georgia;
-}
-.AboutHome{
-    display: flex;
-    width: 50%;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
 }
 
+.Home  .art1 p {
+    width: 75%;
+}
+.Home  .art2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.Home  .art2 p {
+    width: 75%;
+}
+p{
+    font-size: 18px;
+}
+li{
+    font-size: 18px;
+}
+.Home h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: green;
+}
+.Home .art3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    flex-direction: column;
+    }
+.Home .art3 p{
+    display: flex;
+    width: 75%;
+}
+    .Home footer{
+        display: flex;
+    flex-direction: column;
+    background-color: rgba(45, 56, 45, 0.199);
+    border-radius: 10px;
+    }
+.Home footer p{
+    display: flex;
+   padding: 1%;
+}
